@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tirbet24 — Maquette modifiable</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">TIRBET<span>24</span></a>
+    <nav><a href="#sports">Sports</a><a href="#jeux">Jeux</a><a href="#infos">Informations</a></nav>
+    <div class="actions"><button id="loginBtn" class="outline">Connexion</button><button id="registerBtn" class="primary">Inscription</button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">MAQUETTE PERSONNALISABLE</p>
+        <h1>Bienvenue sur <span>Tirbet24</span></h1>
+        <p>Une base de site responsive avec sections modifiables pour vos contenus et jeux de démonstration.</p>
+        <a class="primary button-link" href="#sports">Découvrir</a>
+      </div>
+      <div class="hero-card"><div class="orb">24</div><p>SPORTS · JEUX · LIVE</p><small>Démo visuelle — aucun pari ni paiement réel</small></div>
+    </section>
+    <section id="sports" class="section">
+      <div class="section-heading"><div><p class="eyebrow">CENTRE SPORTIF</p><h2>Événements populaires</h2></div><span class="tag">DÉMO</span></div>
+      <div id="events" class="event-grid"></div>
+    </section>
+    <section id="jeux" class="section games-section">
+      <div class="section-heading"><div><p class="eyebrow">DIVERTISSEMENT</p><h2>Jeux de démonstration</h2></div></div>
+      <div id="games" class="game-grid"></div>
+    </section>
+    <section id="infos" class="info-strip"><div><h3>Votre site, vos règles</h3><p>Modifiez les textes, couleurs et cartes dans les fichiers HTML, CSS et JavaScript.</p></div><span class="code-chip">HTML · CSS · JS</span></section>
+  </main>
+  <footer><span>© 2026 Tirbet24 — maquette de démonstration</span><span>À personnaliser avant publication</span></footer>
+  <dialog id="notice"><button class="close" id="closeNotice" aria-label="Fermer">×</button><h2 id="noticeTitle">Information</h2><p id="noticeText"></p></dialog>
+  <script src="js/app.js"></script>
+</body>
+</html>
